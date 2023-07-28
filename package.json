@@ -7,15 +7,23 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "axios": "^1.4.0",
     "core-js": "^3.8.3",
+    "dotenv-webpack": "^8.0.1",
+    "element-plus": "^2.3.8",
     "vue": "^3.2.13",
-    "vuex": "^4.0.0"
+    "vuedraggable": "^4.1.0",
+    "vuex": "^4.0.0",
+    "webpack": "^5.88.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-typescript": "~5.0.0",
     "@vue/cli-plugin-vuex": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "sass": "^1.64.1",
+    "sass-loader": "^13.3.2",
     "typescript": "~4.5.5"
   }
 }
